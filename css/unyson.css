@@ -1,0 +1,1622 @@
+.fw-divider-space.p-4-444-e {
+    padding-top: 4.444em;
+}
+.fw-divider-space.p-5-e {
+    padding-top: 5em;
+}
+.fw-divider-space.p-7-p {
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+/* section */
+.fw-main-row {
+    margin-left: -15px;
+    margin-right: -15px;
+    background-position: center center;
+    background-size: cover;
+}
+.fw-container {
+    width: 100%;
+    padding: 0;/*add*/
+}
+.fw-container > .fw-row {
+    padding: 0;/*add*/
+    margin: 0;/*add*/
+}
+
+.fw-main-row.fw-container-fullwidth {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.fw-main-row.fw-container-fullwidth .fw-container {
+    /*width: 1170px;*/
+    width: 1200px;
+    padding: 0;
+}
+.columns_padding_0.fw-main-row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.columns_padding_0 [class*="col-"] {
+    padding: 0;
+}
+.columns_padding_5.fw-main-row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.columns_padding_5 [class*="col-"] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.fw-main-row-center {
+    text-align: center;
+}
+
+
+/* Heading */
+.fw-heading {
+    margin-bottom: 1em;
+}
+.fw-heading h4, .fw-heading h5, .fw-heading h6 {
+    font-weight: bold;
+}
+.fw-heading.fw-heading-center {
+    text-align: center;
+}
+div.fw-heading {
+    margin-bottom: 1.2em;
+}
+div.fw-heading.style-line {
+    border-bottom: 1px solid #c7cbca;
+    margin-bottom: 1.2em;
+}
+.fw-heading .fw-special-title {
+    color: #366092;
+    margin: 0 0 25px;
+}
+.fw-heading .fw-special-subtitle {
+    margin-bottom: 1em;
+    font-size: 1.111em;
+    color: #6d6e73;
+}
+.fw-heading h1.fw-special-title {
+    line-height: 1.25em;
+    margin: 0 0 10px;
+}
+.fw-heading h2.fw-special-title {
+    margin: 0 0 10px;
+}
+.fw-heading h3.fw-special-title {
+    line-height: 1.1em;
+}
+
+
+
+/* Team */
+.site-content .fw-team .fw-team-name h3 {
+    font-size: 1.1em;
+    margin: 15px 0 3px;
+}
+.site-content .fw-team .fw-team-name span {
+    background-color: #435e8d;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0;
+    padding: 0 10px 2px;
+}
+
+
+/* About */
+
+/* info style */
+.mt-about.style-info {}
+.mt-about.style-info .mt-about-title {
+    border-bottom: 1px solid #c7cbca;
+    color: #366092;
+    font-size: 3.333em;
+    line-height: 1em;
+    margin: -8px 0 0.36em;
+    padding-bottom: 0.41em;
+    vertical-align: top;
+}
+.mt-about.style-info .mt-about-view {
+    float: right;
+    width: 43%;
+}
+.mt-about.style-info.with_image .mt-about-content {
+    width: 54%;
+    float: left;
+}
+.mt-about.style-info .about-link {
+    margin: 2px 10px 2px 0;
+}
+.mt-about.style-info .mt-about-view .about-image {
+    height: 12.2em;
+    background-size: cover;
+    background-position: center center;
+}
+.mt-about.style-info .mt-about-view > div + div {
+    margin-top: 10px;
+}
+.mt-about.style-info .both-link .mt-about-des {
+    margin-bottom: 2em;
+}
+.mt-about.style-info .both-link .about-link {
+    margin: 0.6em 0;
+}
+.mt-about.style-info .both-link .about-link.second {
+    margin-left: 0.7em;
+}
+
+
+/* gallery style */
+.mt-about.style-gallery {
+    overflow: hidden;
+}
+.mt-about.style-gallery .mt-about-title {
+    color: #366092;
+    font-size: 2.667em;
+    line-height: 1.2em;
+    margin: 0 0 0.8em;
+    padding-bottom: 0;
+    vertical-align: top;
+}
+.mt-about.style-gallery .mt-about-view-bg {
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    height: 10em;
+}
+.mt-about.style-gallery .mt-about-view-bg:before {
+    content: "";
+    display: block;
+    position: absolute;
+
+}
+.mt-about.style-gallery .mt-about-content {
+    width: 50%;
+    float: left;
+}
+.mt-about.style-gallery .mt-about-content-wrap-in {
+    margin: 5.6em auto 6em;
+    max-width: 445px;
+    padding: 0 20px;
+}
+.mt-about.style-gallery .mt-about-des {
+    margin-bottom: 2.8em;
+}
+.mt-about.style-gallery .mt-about-view {
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+.mt-about.style-gallery .about-image {
+    background-position: center center;
+    background-size: cover;
+    height: 110px;
+    width: 200px;
+    float: left;
+}
+.mt-about.style-gallery .about-link-gallery {
+    height: 110px;
+    line-height: 110px;
+    min-width: 200px;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    background: #303032;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.mt-about.style-gallery .about-link-gallery:hover {
+    background: #ffffff;
+    color: #435e8d;
+}
+
+
+
+
+
+
+
+
+
+
+.fw-testimonials {
+    position: relative;
+    margin: 40px 0;
+}
+.fw-testimonials .fw-testimonials-item {
+    position: relative;
+}
+.fw-testimonials .fw-testimonials-text {
+    font-size: 16.8px;
+    font-style: italic;
+    color: #262626;
+    line-height: 1.5em;
+}
+.fw-testimonials .fw-testimonials-text p {
+    margin-bottom: 1.4em;
+}
+.fw-testimonials .fw-testimonials-text p:last-child {
+    margin-bottom: 0;
+}
+.fw-testimonials .prev,
+.fw-testimonials .next {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+    color: #ababab;
+}
+.fw-testimonials .prev:active,
+.fw-testimonials .next:active {
+    margin-top: 1px;
+}
+.fw-testimonials .prev:hover,
+.fw-testimonials .next:hover {
+    color: #000000;
+    border-color: #000000;
+}
+.fw-testimonials .prev i:before,
+.fw-testimonials .next i:before {
+    display: inline-block;
+    font-family: "fontello";
+    font-style: normal;
+    width: 100%;
+}
+.fw-testimonials .prev i:before {
+    content: "\e810";
+}
+.fw-testimonials .next i:before {
+    content: "\e80c";
+}
+.fw-testimonials .fw-testimonials-pagination a {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #ababab;
+    overflow: hidden;
+    margin: 3px;
+    outline: none;
+}
+.fw-testimonials .fw-testimonials-pagination a span {
+    display: block;
+    text-indent: -300px;
+}
+
+
+.fw-testimonials-2 .fw-testimonials-text:before,
+.fw-testimonials-2 .fw-testimonials-text:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 45px;
+    border-style: solid;
+}
+.fw-testimonials-2 .fw-testimonials-meta {
+    display: table;
+    margin-left: 20px;
+}
+.fw-testimonials-2 .fw-testimonials-meta > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.fw-testimonials-2 .fw-testimonials-avatar {
+    margin-right: 10px;
+}
+.fw-testimonials-2 .fw-testimonials-author {
+    padding: 0 0 0 20px;
+}
+.fw-testimonials-2 .fw-testimonials-author .author-name {
+    font-weight: bold;
+    display: block;
+}
+.fw-testimonials-2 .fw-testimonials-author em {
+    font-size: 90%;
+}
+.fw-testimonials-2 .fw-testimonials-author .fw-testimonials-url {
+    display: block;
+    font-size: 90%;
+}
+.fw-testimonials-2 .fw-testimonials-arrows {
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    z-index: 2;
+}
+.fw-testimonials-2 .fw-testimonials-arrows a {
+    margin: 0 5px;
+    outline: none;
+}
+.fw-testimonials-2 .fw-testimonials-pagination {
+    position: absolute;
+    display: inline-block;
+    bottom: 22px;
+    right: 60px;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Testimonials */
+.fw-testimonials .fw-testimonials-item {
+    float: left;
+}
+.fw-testimonials .fw-testimonials-pagination a span { display: none; text-indent: -300px; }
+.fw-testimonials .fw-testimonials-avatar,
+.fw-testimonials .fw-testimonials-avatar img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* light style */
+.fw-testimonials.style-light {
+    background: #f7f8f3;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.fw-testimonials.style-light .fw-testimonials-item {
+    text-align: center;
+}
+.fw-testimonials.style-light .fw-testimonials-text {
+    background-color: transparent;
+    border: medium none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: #366092;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 3.65em 4.5em 3.5em;
+    position: relative;
+    text-align: center;
+}
+.fw-testimonials.style-light .fw-testimonials-text:before,
+.fw-testimonials.style-light .fw-testimonials-text:after {
+    display: none;
+}
+.fw-testimonials.style-light .fw-testimonials-meta {
+    display: inline-block;
+    margin: 0;
+}
+.fw-testimonials.style-light .fw-testimonials-avatar img {
+    border: none;
+    height: 60px;
+    padding: 0;
+    width: 60px;
+}
+.fw-testimonials.style-light .fw-testimonials-author {
+    text-align: left;
+    color: #6d6e73;
+}
+.fw-testimonials.style-light .fw-testimonials-author .author-name {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.fw-testimonials.style-light .fw-testimonials-author em {
+    display: block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.fw-testimonials.style-light .fw-testimonials-item {
+    padding-bottom: 4em;
+}
+.fw-testimonials.style-light .fw-testimonials-pagination {
+    bottom: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 100%;
+}
+.fw-testimonials.style-light .fw-testimonials-pagination a {
+    background-color: #c7cbca;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: inline-block;
+    height: 3px;
+    margin: 0 5px;
+    width: 20px;
+}
+.fw-testimonials.style-light .fw-testimonials-pagination a:hover,
+.fw-testimonials.style-light .fw-testimonials-pagination a.selected {
+    background-color: #435e8d;
+}
+.fw-testimonials.style-light .fw-testimonials-arrows {
+    bottom: 72%;
+    width: 100%;
+}
+.fw-testimonials.style-light .fw-testimonials-arrows a {
+    margin: 0 10px;
+    color: #cacecd;
+}
+.fw-testimonials.style-light .fw-testimonials-arrows a:hover {
+    color: #435e8d;
+}
+.fw-testimonials.style-light .prev, .fw-testimonials.style-light .next {
+    position: absolute;
+    top:0;
+}
+.fw-testimonials.style-light .prev {
+    left: 0;
+}
+.fw-testimonials.style-light .next {
+    right: 0;
+}
+
+
+/* extra style */
+.fw-testimonials.style-extra {
+    background: rgba(48, 48, 50, 0.45);
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.fw-testimonials.style-extra .fw-testimonials-item {
+    text-align: center;
+}
+.fw-testimonials.style-extra .fw-testimonials-text {
+    background-color: transparent;
+    border: medium none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: 700;
+    padding: 6.8em 4.5em 2.9em;
+    position: relative;
+    text-align: center;
+    max-width: 950px;
+    margin: 0 auto;
+}
+.fw-testimonials.style-extra .fw-testimonials-text:before,
+.fw-testimonials.style-extra .fw-testimonials-text:after {
+    display: none;
+}
+.fw-testimonials.style-extra .fw-testimonials-meta {
+    display: inline-block;
+    margin: 0;
+}
+.fw-testimonials.style-extra .fw-testimonials-avatar img {
+    border: none;
+    height: 60px;
+    padding: 0;
+    width: 60px;
+}
+.fw-testimonials.style-extra .fw-testimonials-author {
+    text-align: left;
+    color: #ffffff;
+}
+.fw-testimonials.style-extra .fw-testimonials-author .author-name {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.fw-testimonials.style-extra .fw-testimonials-author em {
+    display: block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.fw-testimonials.style-extra .fw-testimonials-item {
+    padding-bottom: 11em;
+}
+.fw-testimonials.style-extra .fw-testimonials-pagination {
+    bottom: 8.4em;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 100%;
+}
+.fw-testimonials.style-extra .fw-testimonials-pagination a {
+    background-color: #ffffff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: inline-block;
+    height: 3px;
+    margin: 0 5px;
+    width: 20px;
+}
+.fw-testimonials.style-extra .fw-testimonials-pagination a:hover,
+.fw-testimonials.style-extra .fw-testimonials-pagination a.selected {
+    background-color: #435e8d;
+}
+.fw-testimonials.style-extra .fw-testimonials-arrows {
+    bottom: 50%;
+    width: 100%;
+}
+.fw-testimonials.style-extra .fw-testimonials-arrows a {
+    color: #c7cbca;
+    height: 62px;
+    line-height: 62px;
+    margin: -31px 0 0 0;
+    width: 62px;
+    background: rgba(48, 48, 50, 0.45);
+}
+.fw-testimonials.style-extra .fw-testimonials-arrows a:hover {
+    color: #ffffff;
+    background-color: #435e8d;
+}
+.fw-testimonials.style-extra .prev, .fw-testimonials.style-extra .next {
+    position: absolute;
+    top:0;
+}
+.fw-testimonials.style-extra .prev {
+    left: 0;
+}
+.fw-testimonials.style-extra .next {
+    right: 0;
+}
+
+
+
+/* Twitter */
+
+.mt-twitter .mt-twitter-item {
+    float: left;
+}
+
+.mt-twitter-content {
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+}
+.mt-twitter {
+    text-align: center;
+    background: #ffffff;
+    color: #435e8d;
+    overflow: hidden;
+    padding: 3.7em 0 0;
+}
+.mt-twitter .mt-twitter-item {
+    text-align: center;
+    padding: 0.75em 2em 1.1em;
+}
+.mt-twitter .mt-twitter-item .mt-twitter-text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+}
+.mt-twitter .mt-twitter-author {
+    color: #303032;
+    font-weight: 400;
+}
+.mt-twitter .mt-twitter-author:hover {
+    color: #435e8d;
+}
+.mt-twitter .mt-twitter-icon {
+    color: #50abf1;
+    font-size: 28px;
+    line-height: 1em;
+}
+.mt-twitter .mt-twitter-pagination {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 3.6em 0 1.15em;
+}
+.mt-twitter .mt-twitter-pagination a {
+    background-color: #c7cbca;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: inline-block;
+    height: 3px;
+    margin: 0 5px;
+    width: 20px;
+    overflow: hidden;
+}
+.mt-twitter .mt-twitter-pagination a > span { display: none; }
+.mt-twitter .mt-twitter-pagination a:hover,
+.mt-twitter .mt-twitter-pagination a.selected {
+    background-color: #435e8d;
+}
+
+.mt-twitter-content.image-right-pos .mt-twitter-wrap-left {
+    width: 57%;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.mt-twitter-content.image-right-pos .mt-twitter-wrap-left .mt-twitter {
+    -webkit-box-shadow: 10px 10px 0 #f7f8f3;
+    -moz-box-shadow:    10px 10px 0 #f7f8f3;
+    box-shadow:         10px 10px 0 #f7f8f3;
+}
+.mt-twitter-content.image-right-pos .mt-twitter-wrap-right {
+    float: left;
+    width: 43%;
+    margin: 12.3em 0 0 0;
+}
+.mt-twitter-content.image-right-pos .mt-twitter-wrap-right .mt-twitter-image {
+    background-size: cover;
+    width: 100%;
+    margin-top: 10px;
+    height: 25.15em;
+}
+.mt-twitter-view-top .mt-twitter-image {
+    height: 12.3em;
+    background-size: cover;
+    width: 100%;
+}
+.mt-twitter-view-top .mt-twitter-image.first {
+    margin-bottom: 10px;
+}
+
+
+
+/* Slide Items */
+.mt-slide {
+    background: #435e8d;
+}
+.mt-slide .mt-slide-item {
+    background: #435e8d;
+    color: #ffffff;
+    float: left;
+}
+.mt-slide .mt-slide-text {
+    font-size: 14px;
+    font-weight: 300;
+}
+.mt-slide .mt-slide-info {
+    min-height: 15.5em;
+    padding: 1.35em 1.6em 3em;
+}
+.mt-slide .mt-slide-title {
+    font-size: 1em;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+.mt-slide .mt-slide-link {
+    margin: 1em 0 0 0;
+}
+.mt-slide .mt-slide-img {
+    background-size: cover;
+    height: 14.5em;
+}
+.mt-slide .mt-slide-arrows {
+    display: inline-block;
+    float: right;
+    margin-top: -60px;
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+.mt-slide .mt-slide-arrows > a {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    background: #435e8d;
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+}
+.mt-slide .mt-slide-arrows .prev i:before {
+    font-family: "fontello";
+    content: "\e810";
+    font-style: normal;
+}
+.mt-slide .mt-slide-arrows .next i:before {
+    font-family: "fontello";
+    content: "\e80c";
+    font-style: normal;
+}
+.mt-slide .mt-slide-arrows .next {
+    background: #ffffff;
+    color: #435e8d;
+}
+.mt-slide .mt-slide-arrows .prev:active,
+.mt-slide .mt-slide-arrows .next:active {}
+.mt-slide .mt-slide-arrows .prev:hover,
+.mt-slide .mt-slide-arrows .next:hover {}
+
+
+
+
+/* Sermons */
+
+/* style- default */
+
+.mt-sermons.style-default {
+    background-size: cover;
+}
+.mt-sermons.style-default .mt-sermons-item {
+    float: left;
+}
+.mt-sermons.style-default .mt-sermons-author {
+    margin: 0 10px 10px 24px;
+    background: #ffffff;
+    width: 20.5em;
+    height: 20.5em;
+    position: relative;
+    z-index: 1;
+}
+.mt-sermons.style-default .mt-sermons-author:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    right: -10px;
+    bottom: -10px;
+    z-index: 2;
+}
+.mt-sermons.style-default .mt-sermons-author .mt-sermons-author-label {
+    left: -24px;
+    position: relative;
+    text-transform: uppercase;
+    top: 0;
+    z-index: 9;
+    display: block;
+}
+.mt-sermons.style-default .mt-sermons-author .mt-sermons-author-label .label {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    display: block;
+    height: 12px;
+    left: -7em;
+    line-height: 12px;
+    position: absolute;
+    text-align: right;
+    top: 10em;
+    vertical-align: middle;
+    width: 15em;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.mt-sermons.style-default .mt-sermons-author .mt-sermons-author-label .label .line {
+    background: #4791b6;
+    bottom: 4px;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    left: 0;
+    position: relative;
+    width: 30px;
+    margin: 0 11px 0;
+}
+.mt-sermons.style-default .mt-sermons-author-img {
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+.mt-sermons.style-default .mt-sermons-author-img:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 43%, rgba(0,0,0,0.7) 100%);
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 43%,rgba(0,0,0,0.7) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 43%,rgba(0,0,0,0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=0 );
+}
+.mt-sermons.style-default .mt-sermons-author-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    color: #ffffff;
+    padding: 0 1.7em 1.6em;
+    width: 100%;
+}
+.mt-sermons.style-default .mt-sermons-author-info .mt-sermons-author-name {
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0;
+    display: block;
+}
+.mt-sermons.style-default .mt-sermons-author-info .mt-sermons-author-position {
+    font-size: 0.889em;
+    font-weight: 300;
+    display: block;
+    line-height: 1em;
+}
+.mt-sermons.style-default .mt-sermons-content {
+    background:rgba(0,0,0,0.5);
+    color: #ffffff;
+    display: inline-block;
+    margin: 6em 4em 1.8em 22.4em;
+    padding: 1em 1.7em 0.82em;
+    -webkit-transition: all 400ms ease-out 0s;
+    -moz-transition: all 400ms ease-out 0s;
+    -ms-transition: all 400ms ease-out 0s;
+    -o-transition: all 400ms ease-out 0s;
+    transition: all 400ms ease-out 0s;
+}
+.mt-sermons.style-default .mt-sermons-content:hover {
+    background:rgba(0,0,0,0.7);
+}
+.mt-sermons.style-default .mt-sermons-content .mt-sermons-title a {
+    color: #ffffff;
+}
+.mt-sermons.style-default .mt-sermons-content:hover .mt-sermons-title a {
+    color: #cfcfcf;
+}
+.mt-sermons.style-default .mt-sermons-content .mt-sermons-title a:hover {
+    color: #ffffff;
+}
+.mt-sermons.style-default .mt-sermons-content .mt-sermons-title {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin: 0 0 5px 0;
+}
+.mt-sermons.style-default .mt-sermons-content .mt-sermons-des {
+    font-size: 1em;
+    font-weight: 300;
+}
+.mt-sermons.style-default .mt-sermons-content .mt-sermons-des * {
+    line-height: 1em;
+}
+.mt-sermons.style-default .mt-sermons-label {
+    position: absolute;
+    right: 2px;
+    top:0;
+    z-index: 5;
+}
+.mt-sermons.style-default .mt-sermons-label .label {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    display: block;
+    height: 12px;
+    left: -8.4em;
+    line-height: 12px;
+    position: absolute;
+    text-align: right;
+    top: 14.5em;
+    vertical-align: middle;
+    width: 15em;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+.mt-sermons.style-default .mt-sermons-label .label .line {
+    background: #4791b6;
+    bottom: 7px;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    left: 0;
+    position: relative;
+    width: 30px;
+    margin: 0 9px 0;
+}
+
+/*pagination*/
+.mt-sermons.style-default .mt-sermons-pagination {
+    display: inline-block;
+    position: relative;
+}
+.mt-sermons.style-default .mt-sermons-label-count {
+    position: absolute;
+    right: 2px;
+    top:0;
+    z-index: 5;
+}
+.mt-sermons.style-default .mt-sermons-label-count-wrap {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    display: block;
+    height: 12px;
+    left: -2.43em;
+    line-height: 12px;
+    position: absolute;
+    text-align: right;
+    top: 4.5em;
+    vertical-align: middle;
+    width: 3em;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.mt-sermons.style-default .mt-sermons-pagination a {
+    bottom: 1px;
+    position: absolute;
+    right: 15px;
+    opacity: 0;
+    color: #fff;
+    cursor: default;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 400ms ease-out 0s;
+    -moz-transition: all 400ms ease-out 0s;
+    -ms-transition: all 400ms ease-out 0s;
+    -o-transition: all 400ms ease-out 0s;
+    transition: all 400ms ease-out 0s;
+}
+.mt-sermons.style-default .mt-sermons-pagination a.selected {
+    right: 0;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+/*arrows*/
+.mt-sermons.style-default .mt-sermons-arrows {
+    bottom: -60px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    z-index: 9;
+}
+.mt-sermons.style-default .mt-sermons-arrows > a {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    background: #435e8d;
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+}
+.mt-sermons.style-default .mt-sermons-arrows .prev i:before {
+    font-family: "fontello";
+    content: "\e810";
+    font-style: normal;
+}
+.mt-sermons.style-default .mt-sermons-arrows .next i:before {
+    font-family: "fontello";
+    content: "\e80c";
+    font-style: normal;
+}
+.mt-sermons.style-default .mt-sermons-arrows .next {
+    background: #ffffff;
+    color: #435e8d;
+}
+.mt-sermons.style-default .mt-sermons-arrows .prev:active,
+.mt-sermons.style-default .mt-sermons-arrows .next:active {}
+.mt-sermons.style-default .mt-sermons-arrows .prev:hover,
+.mt-sermons.style-default .mt-sermons-arrows .next:hover {}
+
+
+
+/* style - extra */
+.mt-sermons.style-extra {}
+.mt-sermons.style-extra .mt-sermons-bg-image {
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 75%;
+}
+.mt-sermons.style-extra .mt-sermons-author-img:before,
+.mt-sermons.style-extra .mt-sermons-bg-image:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 37%, rgba(0,0,0,0) 38%, rgba(0,0,0,0.7) 100%);
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 37%,rgba(0,0,0,0) 38%,rgba(0,0,0,0.7) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 37%,rgba(0,0,0,0) 38%,rgba(0,0,0,0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=0 );
+}
+.mt-sermons.style-extra .mt-sermons-item {
+    float: left;
+    position: relative;
+}
+.mt-sermons.style-extra .mt-sermons-author {
+    height: 33em;
+    margin: 0;
+    width: 20.5%;
+    position: relative;
+    z-index: 1;
+}
+.mt-sermons.style-extra .mt-sermons-author .mt-sermons-author-label {
+    right: -24px;
+    position: relative;
+    text-transform: uppercase;
+    top: 0;
+    z-index: 9;
+    display: block;
+}
+.mt-sermons.style-extra .mt-sermons-author .mt-sermons-author-label .label {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    display: block;
+    height: 12px;
+    right: -7em;
+    line-height: 12px;
+    position: absolute;
+    text-align: right;
+    top: 8.2em;
+    vertical-align: middle;
+    width: 15em;
+    color: #9f9e9a;
+    font-size: 16px;
+    font-weight: 400;
+}
+.mt-sermons.style-extra .mt-sermons-author .mt-sermons-author-label .label .line {
+    background: #435e8d;
+    bottom: 4px;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    left: 0;
+    position: relative;
+    width: 30px;
+    margin: 0 11px 0;
+}
+.mt-sermons.style-extra .mt-sermons-author-img {
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+.mt-sermons.style-extra .mt-sermons-author-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    color: #ffffff;
+    padding: 0 1.7em 2.2em;
+    width: 100%;
+}
+.mt-sermons.style-extra .mt-sermons-author-info .mt-sermons-author-name {
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0 0 6px 0;
+    display: block;
+    text-transform: uppercase;
+}
+.mt-sermons.style-extra .mt-sermons-author-info .mt-sermons-author-position {
+    font-size: 0.889em;
+    font-weight: 300;
+    display: block;
+    line-height: 1em;
+}
+.mt-sermons.style-extra .mt-sermons-content {
+    bottom: 0;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0;
+    padding: 2.6em 1.6em;
+    position: absolute;
+    right: 0;
+    width: 75%;
+    box-sizing: border-box;
+}
+.mt-sermons.style-extra .mt-sermons-content .mt-sermons-title a {
+    color: #ffffff;
+}
+.mt-sermons.style-extra .mt-sermons-content .mt-sermons-title a:hover {
+    color: #435e8d;
+}
+.mt-sermons.style-extra .mt-sermons-content .mt-sermons-title {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0 0 4px;
+}
+.mt-sermons.style-extra .mt-sermons-content .mt-sermons-des {
+    font-size: 16px;
+    font-weight: 300;
+}
+.mt-sermons.style-extra .mt-sermons-content .mt-sermons-des * {
+    line-height: 1em;
+}
+.mt-sermons.style-extra .mt-sermons-label .label {
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/*pagination*/
+.mt-sermons.style-extra .mt-sermons-pagination {
+    display: inline-block;
+    position: relative;
+}
+.mt-sermons.style-extra .mt-sermons-label-count {
+    bottom: 2.8em;
+    position: absolute;
+    right: 14%;
+    z-index: 5;
+}
+.mt-sermons.style-extra .mt-sermons-label-count-wrap {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 11px;
+}
+.mt-sermons.style-extra .mt-sermons-pagination a {
+    bottom: 1px;
+    position: absolute;
+    right: 15px;
+    opacity: 0;
+    color: #fff;
+    cursor: default;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 400ms ease-out 0s;
+    -moz-transition: all 400ms ease-out 0s;
+    -ms-transition: all 400ms ease-out 0s;
+    -o-transition: all 400ms ease-out 0s;
+    transition: all 400ms ease-out 0s;
+}
+.mt-sermons.style-extra .mt-sermons-pagination a.selected {
+    right: 0;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+/*arrows*/
+.mt-sermons.style-extra .mt-sermons-arrows {
+    display: inline-block;
+    margin-top: -60px;
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    z-index: 9;
+}
+.mt-sermons.style-extra .mt-sermons-arrows > a {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    background: #282f39;
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+}
+.mt-sermons.style-extra .mt-sermons-arrows .prev i:before {
+    font-family: "fontello";
+    content: "\e810";
+    font-style: normal;
+}
+.mt-sermons.style-extra .mt-sermons-arrows .next i:before {
+    font-family: "fontello";
+    content: "\e80c";
+    font-style: normal;
+}
+.mt-sermons.style-extra .mt-sermons-arrows .next {
+    background: #ffffff;
+    color: #282f39;
+}
+
+/* main style all sliders */
+.mt-slider a,
+.mt-slide-arrows a,
+.mt-sermons-arrows a {
+    position: relative;
+}
+.mt-slider a i:before,
+.mt-slide-arrows a i:before,
+.mt-sermons-arrows a i:before {
+    display: block;
+    position: absolute;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    right: 0;
+    top: 0;
+}
+.mt-slider a i:before,
+.mt-slide-arrows a i:before,
+.mt-sermons-arrows a i:before {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+    -webkit-transition: all .2s 0s;
+    -moz-transition: all .2s 0s;
+    -ms-transition: all .2s 0s;
+    -o-transition: all .2s 0s;
+    transition: all .2s 0s;
+}
+.mt-slider a:hover i:before,
+.mt-slide-arrows a:hover i:before,
+.mt-sermons-arrows a:hover i:before {
+    -webkit-transform: scale(0.85, 0.85);
+    -moz-transform: scale(0.85, 0.85);
+    -ms-transform: scale(0.85, 0.85);
+    transform: scale(0.85, 0.85);
+    -webkit-transition: all .2s 0.1ms;
+    -moz-transition: all .2s 0.1ms;
+    -ms-transition: all .2s 0.1ms;
+    -o-transition: all .2s 0.1ms;
+    transition: all .2s 0.1ms;
+}
+
+.mt-slide-item + .mt-slide-item,
+.fw-testimonials-item + .fw-testimonials-item,
+.mt-twitter-item + .mt-twitter-item,
+.mt-sermons-item + .mt-sermons-item {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+.caroufredsel_wrapper .mt-slide-item,
+.caroufredsel_wrapper .fw-testimonials-item,
+.caroufredsel_wrapper .mt-twitter-item,
+.caroufredsel_wrapper .mt-sermons-item {
+    height: auto;
+    opacity: 1;
+    overflow: visible;
+}
+
+
+
+
+
+/* MT Slide */
+.mt-slider {
+    overflow: hidden;
+    position: relative;
+}
+.mt-slider .mt-slider-item {
+    background-size: cover;
+    /*background-position: center top;*/
+    background-position: center center;
+}
+.mt-slider .slides-navigation {
+    bottom: 25%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+}
+.menu-side.is-header-plain .mt-slider .slides-navigation {
+    bottom: 50%;
+}
+.mt-slider .slides-navigation a {
+    color: #ffffff;
+    background: #435e8d;
+    height: 60px;
+    line-height: 60px;
+    margin: -30px 0 0 0;
+    width: 60px;
+    text-align: center;
+    font-size: 2em;
+}
+.mt-slider .slides-navigation .prev,
+.mt-slider .slides-navigation .next {
+    position: absolute;
+    top:0;
+    left: 2px;
+}
+.mt-slider .slides-navigation .next {
+    left: auto;
+    right: 2px;
+    color: #435e8d;
+    background: rgba(255, 255, 255, 1);
+}
+.mt-slider .slides-navigation .prev i:before {
+    font-family: "fontello";
+    content: "\e810";
+    font-style: normal;
+}
+.mt-slider .slides-navigation .next i:before {
+    font-family: "fontello";
+    content: "\e80c";
+    font-style: normal;
+}
+.mt-slider .mt-slide-info {
+    width: 80%;
+    margin: 0;
+    text-align: center;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    -webkit-transform:translateX(-50%) translateY(-50%);
+    -moz-transform:translateX(-50%) translateY(-50%);
+    -ms-transform:translateX(-50%) translateY(-50%);
+    transform:translateX(-50%) translateY(-50%);
+}
+.mt-slider .mt-slide-info .mt-slide-title {
+    font-size: 8.333em;
+    font-weight: 700;
+    line-height: 0.95em;
+    margin: 0.3em 0 0.095em;
+    color: #435e8d;
+    position: relative;
+}
+.mt-slider .mt-slide-info .mt-slide-text {
+    font-size: 1.333em;
+    color: #303032;
+    font-weight: 400;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    position: relative;
+}
+.menu-side.is-header-plain .mt-slider .mt-slide-info,
+.mt-slider.width-height .mt-slide-info {
+    top: 46%;
+}
+.mt-slider.width-height .mt-slide-info {
+    width: 90%;
+}
+.mt-slider.width-height .mt-slide-info .mt-slide-text {
+    font-size: 1.2em;
+}
+.mt-slider.width-height .mt-slide-info .mt-slide-title {
+    font-size: 6em;
+}
+
+
+/* Animation Slider */
+@-webkit-keyframes slide_info_top {
+    from, to {
+        top: -35px;
+        opacity:0;
+        filter: alpha(opacity=0);
+    }
+    18% {
+        top: -35px;
+        opacity:0;
+        filter: alpha(opacity=0);
+    }
+    100% {
+        top: 0;
+        opacity:1;
+        filter: alpha(opacity=100);
+    }
+}
+@keyframes slide_info_top {
+    from, to {
+        top: -35px;
+        opacity:0;
+        filter: alpha(opacity=0);
+    }
+    18% {
+        top: -35px;
+        opacity:0;
+        filter: alpha(opacity=0);
+    }
+    100% {
+        top: 0;
+        opacity:1;
+        filter: alpha(opacity=100);
+    }
+}
+
+@-webkit-keyframes slide_info_bottom {
+    from, to {
+        bottom: -30px;
+    }
+    30% {
+        bottom: -30px;
+        opacity:0;
+        filter: alpha(opacity=0);
+    }
+    100% {
+        bottom: 0;
+        opacity:1;
+        filter: alpha(opacity=100);
+    }
+}
+@keyframes slide_info_bottom {
+    from, to {
+        bottom: -30px;
+        opacity:0;
+        filter: alpha(opacity=0);
+    }
+    30% {
+        bottom: -30px;
+        opacity:0;
+        filter: alpha(opacity=0);
+    }
+    100% {
+        bottom: 0;
+        opacity:1;
+        filter: alpha(opacity=100);
+    }
+}
+
+
+.mt-slider-item .mt-slide-info .mt-slide-title {
+    -webkit-animation-name: slide_info_top;
+    animation-name: slide_info_top;
+    -webkit-animation-duration: 1.8s;
+    animation-duration: 1.8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.mt-slider-item .mt-slide-info .mt-slide-text {
+    -webkit-animation-name: slide_info_bottom;
+    animation-name: slide_info_bottom;
+    -webkit-animation-duration: 2.2s;
+    animation-duration: 2.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+
+/* Countdown Timer */
+.mt-countdown .mt-countdown-header .mt-countdown-subtitle {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #303032;
+}
+.mt-countdown .mt-countdown-header .mt-countdown-title {
+    color: #435e8d;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 0;
+}
+.mt-countdown-timer .mt-countdown-item {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 4.2em;
+    padding: 0 3px;
+    text-align: center;
+}
+.mt-countdown-timer .mt-countdown-item .mt-countdown-digits {
+    width: 100%;
+    display: block;
+    font-size: 3em;
+    line-height: 0.9em;
+    color: #435e8d;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.mt-countdown-timer .mt-countdown-item .mt-countdown-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    margin: 6px 0 0;
+}
+.mt-countdown.above {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 7;
+    width: 100%;
+    text-align: center;
+}
+
+/* style 1 */
+.mt-countdown.style-1 {
+    display: block;
+    text-align: center;
+    padding: 1px;
+}
+.mt-countdown.style-1 .mt-countdown-timer-wrap,
+.mt-countdown.style-1 .mt-countdown-info-wrap {
+    min-width: 21.389em;
+    display: inline-block;
+    margin: 1px;
+    vertical-align: middle;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 0.75em 1em 0.65em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.mt-countdown.style-1.show-info .mt-countdown-timer-wrap,
+.mt-countdown.style-1.show-info .mt-countdown-info-wrap {
+    min-height: 8.2em;
+}
+.mt-countdown.style-1 .mt-countdown-item.seconds {
+    display: none;
+}
+.mt-countdown.style-1.show-info .countdown-info-link {
+    margin: 1.5em 0 1.2em;
+}
+
+/* style 2 */
+.mt-countdown.style-2 .mt-countdown-info-wrap {
+    margin-top: 1em;
+}
+.mt-countdown.style-2 .mt-countdown-item {
+    border: 1px solid #c7cbca;
+    margin: 0 10px 0 0;
+    padding: 0 10px 10px;
+}
+.mt-countdown.style-2 .mt-countdown-header {
+    margin-bottom: 0.7em;
+}
+.mt-countdown.style-2 .mt-countdown-item {
+    min-width: 5em;
+}
+
+
+
+/* Team */
+.fw-team .fw-team-image {
+    text-align: center;
+}
+.fw-team .fw-team-inner {
+    text-align: center;
+}
+.fw-team .fw-team-name {
+    margin-bottom: 10px;
+}
+.fw-team .fw-team-name h3 {
+    font-size: 23px;
+    margin: 10px 0 5px;
+}
+.fw-team .fw-team-name span {
+    color: #666666;
+    font-size: 13px;
+}
