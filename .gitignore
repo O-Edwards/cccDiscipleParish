@@ -1,0 +1,6 @@
+# Hidden Folders and Contents
+.*/*
+.*/
+
+# Node Modules
+node_modules
