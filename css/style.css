@@ -1139,7 +1139,7 @@ body .body-fullwide .fw-main-row {
     box-sizing: border-box;
     background-size: cover;
     background-position: center center;
-    background-image: url("http://placehold.it/2280x713");
+    background-image: url("../images/calendar-header.png");
 }
 #header.contact-img {
     background-image: url("http://placehold.it/1900x597");
