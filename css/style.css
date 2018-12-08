@@ -4706,13 +4706,13 @@ div.wpcf7 {
 }
 
 .mt-sermons.style-default .mt-sermons-author-img.image-1 {
-    background-image:url(http://placehold.it/600x600);
+    background-image:url(../images/avatar.svg);
 }
 .mt-sermons.style-default .mt-sermons-author-img.image-2 {
-    background-image:url(http://placehold.it/600x600);
+    background-image:url(../images/avatar.svg);
 }
 .mt-sermons.style-default .mt-sermons-author-img.image-3 {
-    background-image:url(http://placehold.it/1000x1000.jpg);
+    background-image:url(../images/avatar.svg);
 }
 
 
