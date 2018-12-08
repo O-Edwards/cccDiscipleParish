@@ -4674,7 +4674,7 @@ div.wpcf7 {
     background-size: auto auto;
 }
 
-.mt-slider-item.slide-1 { background-image:url(../images/bgslider2.jpg); }
+.mt-slider-item.slide-1 { background-image:url(../images/sliderbg.jpg); }
 .mt-slider-item.slide-2 { background-image:url(../images/sliderbg.jpg); }
 .mt-slider-item.slide-3 { background-image:url(../images/sliderbg.jpg); }
 
@@ -4823,5 +4823,10 @@ div.wpcf7 {
 }
 
 #our-location {
-    color: #fff; 
+    color: #fff;
+    text-decoration: underline; 
+}
+#middle-image {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
