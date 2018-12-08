@@ -4674,9 +4674,9 @@ div.wpcf7 {
     background-size: auto auto;
 }
 
-.mt-slider-item.slide-1 { background-image:url(http://placehold.it/1920x1080); }
-.mt-slider-item.slide-2 { background-image:url(http://placehold.it/1920x1080); }
-.mt-slider-item.slide-3 { background-image:url(http://placehold.it/1920x1080); }
+.mt-slider-item.slide-1 { background-image:url(../images/bgslider2.jpg); }
+.mt-slider-item.slide-2 { background-image:url(../images/sliderbg.jpg); }
+.mt-slider-item.slide-3 { background-image:url(../images/sliderbg.jpg); }
 
 .mt-about.style-info .about-image.image-1 { background-image:url(http://placehold.it/1280x853); }
 .mt-about.style-info .about-image.image-2 { background-image:url(http://placehold.it/980x676); }
@@ -4820,4 +4820,8 @@ div.wpcf7 {
 
 .bg-color-light {
     background-color:#f7f8f3;
+}
+
+#our-location {
+    color: #fff; 
 }
